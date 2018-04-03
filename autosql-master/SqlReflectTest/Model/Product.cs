@@ -6,7 +6,7 @@ namespace SqlReflectTest.Model
     [Table("Products")]
     public class Product
     {
-        [PK]
+        [PK(IsIdentity = true)]
         public int ProductID { get; set; }
         public string ProductName { get; set; }
         public Supplier Supplier { get; set; }

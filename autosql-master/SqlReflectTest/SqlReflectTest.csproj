@@ -51,17 +51,21 @@
   <ItemGroup>
     <Compile Include="AbstractCategoryDataMapperTest.cs" />
     <Compile Include="AbstractProductDataMapperTest.cs" />
+    <Compile Include="AbstractShippersDataMapperTest.cs" />
     <Compile Include="CategoryDataMapperReflectTest.cs" />
+    <Compile Include="DataMappers\ShippersDataMapper.cs" />
     <Compile Include="DataMappers\SupplierDataMapper.cs" />
     <Compile Include="DataMappers\CategoryDataMapper.cs" />
     <Compile Include="DataMappers\ProductDataMapper.cs" />
     <Compile Include="CategoryDataMapperTest.cs" />
+    <Compile Include="Model\Shippers.cs" />
     <Compile Include="ProductDataMapperReflectTest.cs" />
     <Compile Include="ProductDataMapperTest.cs" />
     <Compile Include="Model\Category.cs" />
     <Compile Include="Model\Product.cs" />
     <Compile Include="Model\Supplier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShippersDataMapperTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -51,6 +51,7 @@ namespace SqlReflect
             }
             finally
             {
+                
                 if (dr != null) dr.Dispose();
                 if (cmd != null) cmd.Dispose();
                 if (con.State != ConnectionState.Closed) con.Close();
